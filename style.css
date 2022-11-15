@@ -1,0 +1,89 @@
+html {
+    background: linear-gradient(120deg, rgb(0, 200, 255) 0%, rgb(255, 222, 35) 100%) no-repeat fixed;
+}
+
+body {
+    margin: 0;
+}
+
+* {
+    color:black;
+    font-family: "Comfortaa", "Consolas", "Lucida Console";
+}
+
+.txt_inv {
+    color:rgb(0, 200, 255);
+    filter: invert(100%)
+}
+
+.titolo {
+    font-size: 3em;
+    margin-top: 60px;
+    letter-spacing: 8px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 400px) {
+    .titolo {
+        font-size: 1.8em;
+        margin-top: 60px;
+        letter-spacing: 8px;
+        text-align: center;
+    }
+}
+
+.wrapper {
+    height: 14vh;
+}
+
+.box_color {
+    margin:10px;
+    width: 6vw;
+    min-width: 50px;
+    height: 4vh;
+    min-height: 30px;
+
+}
+
+.box_deg {
+    margin:10px;
+    width: 6vw;
+    min-width: 50px;
+    height: 3.2vh;
+    min-height: 24px;
+}
+
+.disclaimer {
+    text-align:center;
+    max-width: 70vw;
+    margin: auto;
+    letter-spacing: 2px;
+    line-height: 1.2;
+}
+
+.centr {
+    display: flex;
+    justify-content: center; /* centra ORIZZONTALE */
+    align-items: center; /*funziona anche flex-direction: column; centra VERTICALE */
+}
+
+.ref_box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* di norma centra ORIZZONTALE, siccome sto usando direction COLUMN centra VERTICALE */
+    gap: 8px;
+    max-width: 70vw;
+    margin: auto;
+    height: 30vh;
+    min-height: 160px;
+    text-align:center;
+}
+
+.param_update {
+    letter-spacing: 2px;
+    font-weight: lighter;
+}
+
+h3 {
+    font-weight: bolder;
+}
